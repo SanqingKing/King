@@ -59,7 +59,7 @@ public class KingFor {
      * */
     public void kingForPrint(Object obj, OutputStream outputStream){
         if(ObjectUtils.isEmpty(obj)){
-            System.out.println("null not print！");
+            System.out.println("null NotPrint！");
         }else {
             if (obj instanceof Set){
                 for (Object o: (Set)obj) {
@@ -136,7 +136,7 @@ public class KingFor {
     }
 
     /**
-     *
+     *返回传递的对象的class类型
      * */
     public Class kingIsObjectClass(Object obj) {
         if(ObjectUtils.isEmpty(obj)){
